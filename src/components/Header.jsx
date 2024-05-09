@@ -4,7 +4,7 @@ import ControlPresupuesto from './ControlPresupuesto'
 const Header = ({cargaDatosEjemplo, gastos, presupuesto, setGastos, setPresupuesto, isValidPresupuesto, setIsValidPresupuesto}) => {
 	return (
 		<header>
-      <h1>Planificador de gastizos</h1>
+      <h1>Planificador de gastos</h1>
 
       { isValidPresupuesto ?
         (
